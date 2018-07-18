@@ -4,7 +4,7 @@
 <xs:element name="OpchainList">
     <xs:complexType>
         <xs:sequence>
-            <xs:element ref="OPCHAIN" maxOccurs="unbounded"/>
+            <xs:element ref="OPCHAIN" minOccurs="0" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
 </xs:element>
@@ -12,7 +12,7 @@
 <xs:element name="SuccessionList">
     <xs:complexType>
         <xs:sequence>
-            <xs:element ref="Succession" maxOccurs="unbounded"/>
+            <xs:element ref="Succession" minOccurs="0" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
 </xs:element>
